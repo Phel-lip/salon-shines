@@ -9,6 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        reviewSocial: "nanna-review-social",
         service: "service-action",
         serviceFilter: "service-filter",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
