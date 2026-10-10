@@ -8,5 +8,5 @@
 - [x] Ensure portable image storage and leave project unpublished.
 - [x] Update before/after supporting text and add “Quero esse resultado” booking CTA without changing the comparison images.
 - [x] Load the uploaded project unchanged, including its existing photos and booking flow.
-- [ ] Add only the approved reviews invitation in the A.M Cabelos format, linking to Nanna's Instagram without fictitious ratings or testimonials.
-- [ ] Verify the new section and Instagram button, preserving the existing page and booking flow.
+- [x] Add only the approved reviews invitation in the A.M Cabelos format, linking to Nanna's Instagram without fictitious ratings or testimonials.
+- [x] Verify the new section and Instagram button, preserving the existing page and booking flow.
