@@ -14,3 +14,4 @@
 - Appointment requests deliberately open the client's WhatsApp and require salon confirmation; do not replace this flow with stored leads or automatic messaging.
 - Store optimized photos as project-local public image files for portable hosting; downloaded source bytes remain temporary, and no prior-project asset pointers are reused.
 - Keep photographic portfolio evidence separate from services without verified images so portraits and promotional graphics cannot be misrepresented as service results.
+- Keep the reviews invitation in an isolated browser-safe component using existing salon tokens and the centralized social URL so it cannot alter the imported sections.

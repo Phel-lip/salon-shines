@@ -4,6 +4,7 @@ import { ArrowRight, MapPin, Clock, Instagram, ChevronDown, Menu, X, ExternalLin
 import { SALON, MARQUEE_ITEMS } from "@/lib/salon";
 import { BookingModal } from "@/components/BookingModal";
 import { ServicesSection } from "@/components/ServicesSection";
+import { ReviewsSection } from "@/components/ReviewsSection";
 import { Button } from "@/components/ui/button";
 const before = "/images/hair-before.webp";
 const after = "/images/hair-after.webp";
@@ -36,6 +37,7 @@ function Index() {
       <ServiceMarquee />
       <ServicesSection onBook={book} />
       <BeforeAfter onBook={() => book()} />
+      <ReviewsSection />
       <Faq />
       <Footer />
       {modal.open && <BookingModal open initialService={modal.service} onClose={close} />}
