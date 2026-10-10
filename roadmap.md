@@ -10,3 +10,6 @@
 - [x] Load the uploaded project unchanged, including its existing photos and booking flow.
 - [x] Add only the approved reviews invitation in the A.M Cabelos format, linking to Nanna's Instagram without fictitious ratings or testimonials.
 - [x] Verify the new section and Instagram button, preserving the existing page and booking flow.
+- [x] Remove the FAQ category grouping, keeping the same four questions in one list.
+- [x] Remove the "Trabalho do salão" Instagram badge and photo link from every service card, keeping the "Solicitar" action and the profile CTA above the grid.
+- [x] Remove the burned-in caption from the "Corte feminino" photo and keep it optimized as a local webp.
