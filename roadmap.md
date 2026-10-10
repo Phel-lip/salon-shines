@@ -7,4 +7,5 @@
 - [x] Verify service buttons, optional preferences and WhatsApp message on desktop and mobile.
 - [x] Ensure portable image storage and leave project unpublished.
 - [x] Update before/after supporting text and add “Quero esse resultado” booking CTA without changing the comparison images.
-- [ ] Remove the two extra portfolio-detail photos and restore the original Google-review section using verified Nanna reviews only.
+- [x] Load the uploaded project unchanged, including its existing photos and booking flow.
+- [ ] Add only the Google-review section using verified Nanna reviews; do not change any existing section.
