@@ -150,7 +150,7 @@
 @utility shadow-soft { box-shadow: var(--shadow-soft); }
 @utility text-brand { background-image: var(--gradient-brand); -webkit-background-clip: text; background-clip: text; color: transparent; }
 @keyframes marquee-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-.marquee-track { animation: marquee-scroll 38s linear infinite; }
+.marquee-track { animation: marquee-scroll 26s linear infinite; }
 @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
 
 /* Service catalog: isolated from the existing salon sections. */
