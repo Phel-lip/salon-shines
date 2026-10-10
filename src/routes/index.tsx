@@ -174,21 +174,13 @@ function Faq() {
     <section id="faq" className="scroll-mt-20 bg-secondary/50 py-16 md:py-24">
       <div className="mx-auto max-w-3xl px-5">
         <SectionTitle eyebrow="Dúvidas" title="Perguntas frequentes" />
-        <div className="space-y-6">
-          {["Sobre o salão", "Sobre a solicitação"].map((group, groupIndex) => (
-            <div key={group}>
-              <h3 className="mb-3 text-sm font-medium text-primary">{group}</h3>
-              <div className="faq-list divide-y">
-                {FAQ.slice(groupIndex * 2, groupIndex * 2 + 2).map(([q, a], index) => {
-                  const i = groupIndex * 2 + index;
-                  return <div key={q}>
-                    <Button variant="ghost" aria-expanded={open === i} aria-controls={`faq-answer-${i}`} onClick={() => setOpen(open === i ? null : i)} className="faq-trigger gap-4 px-6 py-5 font-medium">
-                      {q}<ChevronDown className={`h-5 w-5 shrink-0 text-primary transition ${open === i ? "rotate-180" : ""}`} />
-                    </Button>
-                    {open === i && <p id={`faq-answer-${i}`} className="px-6 pb-5 text-sm text-muted-foreground">{a}</p>}
-                  </div>;
-                })}
-              </div>
+        <div className="faq-list divide-y">
+          {FAQ.map(([q, a], i) => (
+            <div key={q}>
+              <Button variant="ghost" aria-expanded={open === i} aria-controls={`faq-answer-${i}`} onClick={() => setOpen(open === i ? null : i)} className="faq-trigger gap-4 px-6 py-5 font-medium">
+                {q}<ChevronDown className={`h-5 w-5 shrink-0 text-primary transition ${open === i ? "rotate-180" : ""}`} />
+              </Button>
+              {open === i && <p id={`faq-answer-${i}`} className="px-6 pb-5 text-sm text-muted-foreground">{a}</p>}
             </div>
           ))}
         </div>
